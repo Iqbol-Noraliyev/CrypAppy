@@ -1,0 +1,27 @@
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.navbar{
+    background-color: rgba(12, 13, 46, 0.9);
+    position: relative;
+    width: 100%;
+    padding: 20px 0 ;
+}
+
+.navbar-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navbar-section .navbar-link .link{
+    margin-right: 24px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar-link .link.activ{
+    color: #189CE8;
+}
